@@ -1,8 +1,8 @@
- 
+
 /*  unif01.h  for ANSI C  */
 #ifndef UNIF01_H
 #define UNIF01_H
- 
+
 #include "gdef.h"
 
 
@@ -61,7 +61,7 @@ void unif01_DeleteDummyGen (unif01_Gen *gen);
 
 
 
-void unif01_DeleteGen (unif01_Gen *gen); 
+void unif01_DeleteGen (unif01_Gen *gen);
 
 
 
@@ -189,7 +189,7 @@ void unif01_TimerGenWr (unif01_Gen *gen, long n, lebool fU01);
 
 void unif01_TimerSumGenWr (unif01_Gen *gen, long n, lebool fU01);
 
- 
+
 #endif
- 
+
 

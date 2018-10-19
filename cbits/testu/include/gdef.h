@@ -1,4 +1,4 @@
- 
+
 /* gdef.h  for ANSI C */
 #ifndef GDEF_H
 #define GDEF_H
@@ -17,7 +17,7 @@
 #else
 #undef USE_GMP
 #endif
- 
+
 
 #define FALSE 0
 #define TRUE 1

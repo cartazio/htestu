@@ -1,5 +1,5 @@
 {-# LANGUAGE ForeignFunctionInterface #-}
-module Test.HTestU.Wrapping
+module Test.TestU.Wrapping
   ( Battery
   , WrappedCallback
   , c_createGenerator
@@ -15,8 +15,8 @@ import Foreign.Ptr (Ptr, FunPtr)
 import Foreign.C.Types (CUInt(..))
 import Foreign.Marshal.Array (pokeArray)
 
-import Test.HTestU.Streaming (RandomStream)
-import Test.HTestU.BatteryResult (BatteryResultStruct(..))
+import Test.TestU.Streaming (RandomStream)
+import Test.TestU.BatteryResult (BatteryResultStruct(..))
 
 -- | A token type of a C structure of a PRNG, is not used directly
 data UniformGenerator

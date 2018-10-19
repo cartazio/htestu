@@ -1,5 +1,5 @@
 {-# LANGUAGE ForeignFunctionInterface #-}
-module Test.HTestU
+module Test.TestU
   ( TestResult
   , runBattery
   , toResults
@@ -18,9 +18,9 @@ import Foreign.Ptr (freeHaskellFunPtr)
 
 import System.IO.Unsafe (unsafePerformIO)
 
-import Test.HTestU.Wrapping (Battery, genToWrappedCallback, c_createGenerator, c_deleteGenerator)
-import Test.HTestU.BatteryResult (BatteryResultStruct(..))
-import Test.HTestU.Streaming (RandomStream)
+import Test.TestU.Wrapping (Battery, genToWrappedCallback, c_createGenerator, c_deleteGenerator)
+import Test.TestU.BatteryResult (BatteryResultStruct(..))
+import Test.TestU.Streaming (RandomStream)
 
 -- | Type for presenting a result of a test, instead of a p-value
 data TestResult = Fail | Suspect | OK deriving (Eq, Show)

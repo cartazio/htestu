@@ -9,9 +9,9 @@ import qualified System.Random.MWC as MWC
 import System.Random.Mersenne.Pure64 ( newPureMT )
 -- import Control.Monad ( join )
 import System.Random ( RandomGen )
-import Test.HTestU (TestResult, runBatteryToResults, c_smallCrush)
-import Test.HTestU.Streaming (nextStreamFromGen)
-import Test.HTestU.Wrapping (Battery)
+import Test.TestU (TestResult, runBatteryToResults, c_smallCrush)
+import Test.TestU.Streaming (nextStreamFromGen)
+import Test.TestU.Wrapping (Battery)
 
 import Control.Monad.Primitive
 import System.IO.Unsafe

@@ -1,7 +1,7 @@
 {-# LANGUAGE ForeignFunctionInterface #-}
 {-# LANGUAGE CPP                      #-}
 
-module Test.HTestU.BatteryResult
+module Test.TestU.BatteryResult
 ( BatteryResultStruct(..)
 ) where
 

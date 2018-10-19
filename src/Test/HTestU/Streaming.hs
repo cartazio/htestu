@@ -1,4 +1,4 @@
-module Test.HTestU.Streaming
+module Test.TestU.Streaming
  ( RandomStream
  , nextStreamFromGen
  , splitNextStreamFromGen

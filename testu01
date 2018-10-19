@@ -22,7 +22,7 @@ cabal-version:       >=1.10
 
 source-repository head
     type:     git
-    location: https://github.com/idontgetoutmuch/htestu
+    location: https://github.com/cartazio/testu01-hs
 
 flag testKnownRNGs
   description: build an exe to test selected Haskell RNGs
@@ -34,8 +34,9 @@ library
                        Test.HTestU.BatteryResult,
                        Test.HTestU.Wrapping
   other-extensions:    ForeignFunctionInterface, CPP
-  build-depends:       base >=4.7 && < 4.10,
-                       random
+  build-depends:       base >=4.7 && < 5
+                       ,random
+
 
   hs-source-dirs:      src
   build-tools:         gcc, hsc2hs
